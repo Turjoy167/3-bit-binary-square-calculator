@@ -1,0 +1,27 @@
+|ckt
+A => Equal4.IN3
+A => Equal3.IN3
+A => Equal2.IN3
+A => Equal1.IN3
+A => Equal0.IN3
+A => Decoder0.IN0
+B => Equal4.IN4
+B => Equal3.IN4
+B => Equal2.IN4
+B => Equal1.IN4
+B => Equal0.IN4
+B => Decoder0.IN1
+C => Equal4.IN5
+C => Equal3.IN5
+C => Equal2.IN5
+C => Equal1.IN5
+C => Equal0.IN5
+C => Decoder0.IN2
+F0 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+F1 <= <GND>
+F2 <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+F3 <= WideNor1.DB_MAX_OUTPUT_PORT_TYPE
+F4 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+F5 <= WideNor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
